@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 6%;
+  width: 100%;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 170%;
+  color: black;
+  font-weight: bold;
+}
+
+.logo span {
+  color: red;
+  font-size: 120%;
+}
