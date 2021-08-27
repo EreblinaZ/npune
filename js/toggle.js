@@ -1,3 +1,5 @@
+'use strict';
+
 const header = document.getElementById('header');
 const toggle = document.getElementById('toggle');
 const navbar = document.getElementById('navbar');
