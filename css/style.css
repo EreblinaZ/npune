@@ -51,7 +51,7 @@ header {
 }
 
 #toggle::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 28px;
   height: 2px;
@@ -61,7 +61,7 @@ header {
 }
 
 #toggle::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 28px;
   height: 2px;
@@ -124,6 +124,19 @@ header {
   background: rgb(26, 158, 0, 0.9);
 }
 
+#kryefaqja div {
+  display: flex;
+}
+
+#kryefaqja {
+  position: relative;
+  margin-top: 100px;
+}
+
+.kryefaqja img {
+  position: relative;
+  width: 50%;
+}
 @media (max-width: 991px) {
   #navbar {
     position: fixed;
