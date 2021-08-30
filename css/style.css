@@ -142,6 +142,20 @@ header {
 #kryefaqja .tekst {
   margin-top: 150px;
 }
+
+.box img {
+  width: 100px;
+  height: 70px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+}
+
 @media (max-width: 991px) {
   #navbar {
     position: fixed;
