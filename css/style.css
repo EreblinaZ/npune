@@ -203,6 +203,9 @@ section .titulli::after {
   content: 'Shërbimet!';
 }
 
+.sherbimet .card .btn {
+  color: #e5ff00;
+}
 .sherbimet .carousel .card {
   background: #222;
   border-radius: 6px;
