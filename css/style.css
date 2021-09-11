@@ -14,10 +14,16 @@ header #top {
   position: fixed;
   z-index: 9999;
   background-color: rgb(11, 10, 90);
-  color: white;
   width: 100%;
   height: 50px;
   top: 0;
+}
+
+#top a {
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 0.5%;
 }
 header #menyja {
   position: fixed;
@@ -215,13 +221,14 @@ section .titulli::after {
 
 .sherbimet .card .box .btn {
   position: relative;
-  background: #fff;
   margin: 20px;
   width: 130px;
   height: 40px;
   padding: 10px 25px;
   border-radius: 50px;
   font-size: 16px;
+  color: white;
+  font-weight: bold;
   transition: all 0.3s ease;
   border: none;
   z-index: 1;
@@ -234,8 +241,12 @@ section .titulli::after {
   width: 400px;
   height: 400px;
   background-color: #402f98;
-
-  background-image: linear-gradient(225deg, #27d86c, #26caf8 50%, #c625d0 100%);
+  background-image: linear-gradient(
+    225deg,
+    #27d86c,
+    rgb(41, 39, 155) 50%,
+    #c625d0 100%
+  );
   top: -100px;
   left: -100px;
   z-index: -1;
@@ -295,7 +306,7 @@ section .titulli::after {
 }
 
 .sherbimet .carousel .card:hover img {
-  border-color: #fff;
+  border-style: groove;
 }
 
 .owl-dots {
@@ -370,8 +381,8 @@ section .titulli::after {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
-  box-shadow: 0 0 5px 0 rgb(255, 88, 96, 0.5);
+  background-image: linear-gradient(90deg, #151681 0%, #616caa 100%);
+  box-shadow: 0 0 5px 0 rgba(185, 22, 30, 0.5);
   opacity: 0.85;
   padding: 0.6rem 1rem;
   border-radius: 9px;
@@ -456,10 +467,10 @@ section .titulli::after {
 
 .copyright {
   text-align: center;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(11, 10, 90);
   font-weight: bold;
   padding: 10px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 991px) {
