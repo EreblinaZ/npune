@@ -147,15 +147,24 @@ header #menyja {
 }
 
 #kryefaqja img {
-  position: relative;
+  background: no-repeat center center;
+  filter: invert(25%);
+  -webkit-filter: invert(25%);
+  -moz-filter: invert(25%);
+  background-size: cover;
   margin-top: -2px;
   width: 100%;
-  height: 500px;
 }
 
-/* #kryefaqja .tekst {
-  margin-top: 150px;
-} */
+#kryefaqja .tekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  z-index: 1;
+}
 
 section .sherbimet {
   padding: 230px 0px;
