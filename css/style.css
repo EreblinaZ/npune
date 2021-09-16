@@ -137,10 +137,6 @@ header #menyja {
   text-decoration: underline;
 }
 
-/* #kryefaqja .total {
-  display: flex;
-} */
-
 #kryefaqja {
   position: relative;
   margin-top: 100px;
@@ -180,7 +176,7 @@ section .sherbimet {
 section .titulli {
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
@@ -202,7 +198,7 @@ section .titulli::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: rgb(170, 4, 4);
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -274,6 +270,7 @@ section .titulli::after {
 
 .sherbimet .carousel .card {
   background: #efece8;
+  height: 400px;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -299,7 +296,7 @@ section .titulli::after {
 }
 
 .sherbimet .carousel .card p {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
