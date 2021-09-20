@@ -158,8 +158,39 @@ header #menyja {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: black;
   z-index: 1;
+}
+
+#kryefaqja hr {
+  border-top: 1.5px solid white;
+  text-align: center;
+  margin: 10px;
+}
+
+#kryefaqja .tekst h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 32px;
+  letter-spacing: -2px;
+  word-spacing: 4.4px;
+  color: rgb(170, 4, 4);
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+#kryefaqja .tekst p {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: -2px;
+  word-spacing: 4.4px;
+  color: #2c2c2c;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
 }
 
 section .sherbimet {
@@ -501,5 +532,15 @@ section .titulli::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #kryefaqja .tekst h1 {
+    font-size: 22px;
+  }
+
+  #kryefaqja .tekst p {
+    font-size: 15px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
   }
 }
