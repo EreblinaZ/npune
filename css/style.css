@@ -19,11 +19,18 @@ header #top {
   top: 0;
 }
 
-#top a {
+#top a,
+i {
   color: white;
+}
+
+#top .kycu {
   position: absolute;
   right: 0;
-  margin-right: 0.5%;
+}
+#top .regjistrohu {
+  position: absolute;
+  right: 5%;
 }
 header #menyja {
   position: fixed;
