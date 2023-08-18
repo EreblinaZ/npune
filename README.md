@@ -1,7 +1,6 @@
 # n'punë
 
-Landing page
-
+All pages containing job vacancies in Kosovo have been collected in one place.
 
 ## Informations 
 
